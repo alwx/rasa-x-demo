@@ -2,7 +2,7 @@ language: en
 pipeline: supervised_embeddings
 policies:
 - epochs: 300
-  max_history: 5
+  max_history: 3
   name: KerasPolicy
 - fallback_action_name: action_default_fallback
   name: FallbackPolicy
